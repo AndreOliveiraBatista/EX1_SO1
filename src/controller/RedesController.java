@@ -6,8 +6,13 @@ public class RedesController {
 		super();
 	}
 	
-	private String so() {
+	private String os() {
 		String osName = System.getProperty("os.name");
-		return (osName);
+		return osName;
+	}
+	
+	public void ip() {
+		if(os().contains("Windows"));
+		
 	}
 }
